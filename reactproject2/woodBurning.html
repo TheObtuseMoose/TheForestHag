@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>ForestHagArt</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="src/styleSheets/styleSheet.css" />
+    <link rel="stylesheet" href="src/styleSheets/woodBurningStyleSheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>const isIndexPage = false;</script>
+    <script>const isWoodburningPage = true;</script>
+    <script>const isDigitalArtPage = false;</script>
+    <script>const isContactPage = false;</script>
+
+</head>
+
+<body onload="highlightSelectedLink(), isMobile()">
+    <script src="src/file.js"></script>
+
+    <!-- || Header-->
+    <header>
+        <img id="logo" src="./images/digitalArt/WhiteFrog.png" />
+
+        <h1 id="title"> Forest Hag Art</h1>
+
+        <!-- header buttons -->
+        <div class="disable-menuButtons">
+
+            <a class="pageButtons" href="index.html" id="home">Home/</a><!-- button to home -->
+
+            <a class="pageButtons" href="cv.html" id="cv">CV/</a><!-- button to cv -->
+
+            <a class="pageButtons" href="bio.html" id="bio">Bio/</a><!-- button to bio -->
+
+            <a class="pageButtons" href="woodBurning.html" id="woodburning">Wood Burning/</a><!-- button to woodWorking -->
+
+            <a class="pageButtons" href="digitalArt.html" id="digitalArt">Digital Art/</a><!-- button to digital art -->
+
+            <a class="pageButtons" href="contact.html" id="contact">Contact Me!</a><!-- button to contact page -->
+
+        </div>
+
+
+    </header>
+
+    <!-- || Main -->
+    <main class="woodburningMain">
+
+        <!-- hamburger menu -->
+        <div class="topnav">
+
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="bio.html">Bio</a>
+                <a href="woodBurning.html">Wood Working</a>
+                <a href="digitalArt.html">Digital Art</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="openHamburgerMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+
+        <div class="woodburningContent">
+
+            <h2 id="rowOneTitle"> "The Frogs Ask for A King" </h2> <!-- Title 1-->
+
+            <div class="columnTwoImg" id="rowOneImg">
+                <!-- Img 1 -->
+                <label>
+                    <input type="checkbox">
+                    <img src="images/woodBurning/herron.jpg">
+                </label>
+            </div>
+
+            <h2 id="rowTwoTitle"> "BÔH" </h2> <!-- Title 2 -->
+
+            <div class="columnOneImg" id="rowTwoImg">
+                <!-- Img 2 -->
+                <label>
+                    <input type="checkbox">
+                    <img src="images/woodBurning/flyingRat.jpg">
+                </label>
+            </div>
+
+            <h2 id="rowThreeTitle"> "The Final Braincell" </h2> <!-- Title 3 -->
+
+            <div class="columnTwoImg" id="rowThreeImg">
+                <!-- Img 3 -->
+                <label>
+                    <input type="checkbox">
+                    <img src="images/woodBurning/catKoi.jpg">
+                </label>
+            </div>
+
+            <h2 id="rowFourTitle"> "The Final Braincell" </h2> <!-- Title 4 TODO: GRAB THE QUOTE FOR THE TITLE!!-->
+
+            <div class="columnOneImg" id="rowFourImg">
+                <!-- Img 4 -->
+                <label>
+                    <input type="checkbox">
+                    <img src="images/woodBurning/marbleLady.jpg">
+                </label>
+            </div>
+
+            <h2 id="rowFiveTitle"> "Blupee" </h2> <!-- Title 5 -->
+
+            <div class="columnTwoImg" id="rowFiveImg">
+                <!-- Img 5 -->
+                <label>
+                    <input type="checkbox">
+                    <img src="images/woodBurning/blupee.jpg">
+                </label>
+            </div>
+
+            <h2 id="rowSixTitle"> "The Crime of Being Small" </h2> <!-- Title 6 -->
+
+            <div class="columnOneImg" id="rowSixImg">
+                <!-- Img 6 -->
+                <label>
+                    <input type="checkbox">
+                    <img src="images/woodBurning/littleCrime.jpg">
+                </label>
+            </div>
+
+            <h2 id="rowSevenTitle"> "Crow and The Snake" </h2> <!-- Title 7 -->
+
+            <div class="columnTwoImg" id="rowSevenImg">
+                <!-- Img 7 -->
+                <label>
+                    <input type="checkbox">
+                    <img src="images/woodBurning/crowSnake.jpg">
+                </label>
+            </div>
+
+            <h2 id="rowEightTitle"> "Poison Dagger" </h2> <!-- Title 8 -->
+
+            <div class="columnOneImg" id="rowEightImg">
+                <!-- Img 8 -->
+                <label>
+                    <input type="checkbox">
+                    <img src="images/woodBurning/vineDagger.jpg">
+                </label>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+</html>

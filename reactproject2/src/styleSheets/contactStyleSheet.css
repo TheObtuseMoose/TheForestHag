@@ -1,0 +1,84 @@
+body {
+}
+
+
+.contactMeForm {
+    text-align: center;
+    font-size: 25pt;
+    max-height: 100%
+}
+
+/* instagram link */
+#instagramLink:link, #instagramLink:visited {
+    color: ghostwhite;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25pt;
+    margin-bottom:20em;
+}
+
+#instagramLink:hover {
+    text-decoration: none;
+    color: #515f54
+}
+
+/* form layout */
+.formContainer {
+    display: grid;
+    grid-template-columns: 7em 15em;
+    grid-template-rows: 2em 2em 2em 5em;
+    position: relative;
+    max-width: 22em;
+    max-height: 20em;
+    background-color: #515f54;
+    margin: auto;
+    justify-items: center;
+    border:2px solid black;
+    border-radius:15%;
+}
+
+/* placement for label */
+.formContainer label {
+    grid-column-start: 1;
+    margin:auto;
+    text-align:left;
+}
+
+/* sizing/placement on input boxes */
+.formContainer input {
+    grid-column-start: 2;
+    height: 2em;
+    width: 17em;
+    font-size: 15pt;
+    
+    margin:auto;
+    justify-self:left;
+}
+
+#fName {
+    grid-row-start:1;
+}
+
+#lName {
+    grid-row-start:2;
+}
+
+#email {
+    grid-row-start:3
+}
+
+/* text box augments */
+#message {
+    grid-column-start: 2;
+    grid-row-start:4;
+    width: 17em;
+    height:5em;
+    resize: vertical;
+    font-size: 15pt;
+    margin-top:2em;
+}
+
+#submit {
+    width:5em;
+    
+}

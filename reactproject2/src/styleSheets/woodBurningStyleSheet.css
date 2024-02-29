@@ -1,0 +1,136 @@
+body {
+    background-image:none;
+    background-color:black;
+    overflow-x:hidden;
+}
+
+.woodburningContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+   
+}
+
+#rowOneTitle {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin: auto;
+}
+
+#rowTwoTitle {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin: auto;
+
+}
+
+#rowThreeTitle {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin: auto;
+}
+
+#rowFourTitle {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    margin: auto;  
+}
+
+#rowFiveTitle {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    margin: auto;
+}
+
+#rowSixTitle {
+    grid-column-start: 2;
+    grid-row-start: 6;
+    margin: auto;
+}
+
+#rowSevenTitle {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    margin: auto;
+}
+
+#rowEightTitle {
+    grid-column-start: 2;
+    grid-row-start: 8;
+    margin: auto;
+}
+
+#rowOneImg {
+    grid-row-start: 1;
+    
+}
+
+#rowTwoImg {
+    grid-row-start: 2;
+}
+
+#rowThreeImg {
+    grid-row-start: 3;
+}
+
+#rowFourImg {
+    grid-row-start: 4;
+}
+
+#rowFiveImg {
+    grid-row-start: 5;
+}
+
+#rowSixImg {
+    grid-row-start: 6;
+}
+
+#rowSevenImg {
+    grid-row-start: 7;
+}
+
+#rowEightImg {
+    grid-row-start: 8;
+}
+
+.woodburningContent input[type=checkbox] {
+    display: none
+}
+
+.woodburningContent img {
+    height: 40vw;
+    
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+
+
+
+.columnOneimg {
+    grid-column-start: 1;  
+}
+
+.columnTwoImg {
+    grid-column-start: 2;
+}
+
+.columnOneImg input[type=checkbox]:checked ~ img {
+    transform: translate(50%) scale(1.5);
+    cursor: zoom-out;
+    
+}
+
+.columnTwoImg input[type=checkbox]:checked ~ img {
+    transform: translate(-50%) scale(1.5);
+    cursor: zoom-out;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .columnOneImg input[type=checkbox]:checked ~ img,
+    .columnTwoImg input[type=checkbox]:checked ~ img {
+        transform: scale(1.5);
+        cursor: zoom-out;
+    }
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>ForestHagArt</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="src/styleSheets/styleSheet.css" />
+    <link rel="stylesheet" href="src/styleSheets/digitalArtStyleSheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>const isIndexPage = false;</script>
+    <script>const isWoodburningPage = false;</script>
+    <script>const isDigitalArtPage = true;</script>
+    <script>const isContactPage = false;</script>
+
+</head>
+
+<body onload="highlightSelectedLink()">
+    <script src="src/file.js"></script>
+
+    <!-- || Header-->
+    <header>
+        <img id="logo" src="./images/digitalArt/WhiteFrog.png" />
+
+        <h1 id="title"> Forest Hag Art</h1>
+
+        <!-- header buttons -->
+        <div class="disable-menuButtons">
+
+            <a class="pageButtons" href="index.html" id="home">Home/</a><!-- button to home -->
+
+            <a class="pageButtons" href="cv.html" id="cv">CV/</a><!-- button to cv -->
+
+            <a class="pageButtons" href="bio.html" id="bio">Bio/</a><!-- button to bio -->
+
+            <a class="pageButtons" href="woodBurning.html" id="woodburning">Wood Burning/</a><!-- button to woodWorking -->
+
+            <a class="pageButtons" href="digitalArt.html" id="digitalArt">Digital Art/</a><!-- button to digital art -->
+
+            <a class="pageButtons" href="contact.html" id="contact">Contact Me!</a><!-- button to contact page -->
+
+        </div>
+
+
+    </header>
+
+    <!-- || Main -->
+    <main class="indexMain">
+
+        <!-- hamburger menu -->
+        <div class="topnav">
+
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="bio.html">Bio</a>
+                <a href="woodBurning.html">Wood Working</a>
+                <a href="digitalArt.html">Digital Art</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="openHamburgerMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+    </main>
+</body>
+</html>
