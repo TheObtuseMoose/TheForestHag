@@ -1,6 +1,10 @@
 body {
 }
 
+.contactContent {
+    margin-left:1em;
+    margin-right:1em;
+}
 
 .contactMeForm {
     text-align: center;
@@ -79,6 +83,7 @@ body {
 }
 
 #submit {
-    width:12em;
-    
+    width: 8em;
+    justify-content: left;
+    margin-left: 4em;
 }
