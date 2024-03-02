@@ -1,5 +1,5 @@
 html, body {
-    background-image: url('../../images/digitalArt/mainbackground.jpg');
+    background-image: url(/images/digitalArt/mainbackground.jpg);
     background-size:cover;
     position: relative;
     width:100vw;
