@@ -28,7 +28,7 @@ header {
     display:grid;
     grid-template-columns:5em 10em auto;  
     grid-template-rows:2.5em 2.5em;
-    max-width:100vw;
+    max-width:100%;
     background-color:black;
     color: ghostwhite;
     max-height:5em;
