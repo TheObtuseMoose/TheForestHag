@@ -1,6 +1,7 @@
-body {
+html, body {
     background-image:none;
     background-color:black;
+    background-repeat:repeat-y;
     overflow-x:hidden;
 }
 
