@@ -32,7 +32,7 @@ body {
     grid-template-columns: 7em 15em;
     grid-template-rows: 2em 2em 2em 5em;
     position: relative;
-    max-width: 22em;
+    max-width: fit-content;
     max-height: 20em;
     background-color: #515f54;
     margin: auto;
@@ -53,8 +53,7 @@ body {
     grid-column-start: 2;
     height: 2em;
     width: 17em;
-    font-size: 15pt;
-    
+    font-size: 15pt;   
     margin:auto;
     justify-self:left;
 }
@@ -87,3 +86,68 @@ body {
     justify-content: left;
     margin-left: 4em;
 }
+
+
+/* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+}
+
+/* styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .formContainer {
+        display:flex;
+        flex-direction:column;
+    }
+    .formContainer input {
+        width: 15em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #message {
+        width: 15em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #message {
+        width: 15em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #submit {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .formContainer input {
+            width: 15em;
+            margin-left: 2em;
+            margin-right: 2em;
+        }
+
+    #message {
+        width: 15em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    #message {
+        width: 15em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #submit {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}
+
+
+

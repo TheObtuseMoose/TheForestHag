@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 
 function openHamburgerMenu() {
@@ -9,6 +10,7 @@ function openHamburgerMenu() {
     }
 } 
 
+//Highlights current pages link
 function highlightSelectedLink() {
     const x = document;
 
@@ -27,7 +29,7 @@ function highlightSelectedLink() {
 }
 
 
-function isMobile() {
+window.addEventListener('load', function isMobile() {
     let hasTouchScreen = false;
     if ("maxTouchPoints" in navigator) {
         hasTouchScreen = navigator.maxTouchPoints > 0;
@@ -49,30 +51,11 @@ function isMobile() {
     }
 
     if (hasTouchScreen) {
-        document.querySelector(".disable-menuButtons").style.display = "none";
-        document.querySelector('.woodburningContent').style.display = 'flex';
-        document.querySelector('.woodburningContent').style.flexDirection = 'column';
-        const columnOneImgLabels = document.querySelectorAll(".columnOneImg label, .columnOneImg img");
-        for (let i = 0; i < columnOneImgLabels.length; i++) {
-            columnOneImgLabels[i].style.display = "grid";
-            columnOneImgLabels[i].style.height = "60vw";
-            columnOneImgLabels[i].style.justifySelf = "center";
-        }
-        const columnTwoImgLabels = document.querySelectorAll(".columnTwoImg label, .columnTwoImg img");
-        for (let i = 0; i < columnOneImgLabels.length; i++) {
-            columnTwoImgLabels[i].style.display = "grid";
-            columnTwoImgLabels[i].style.height = "60vw";
-            columnTwoImgLabels[i].style.justifySelf = "center";
-        }       
-        const allWoodburningTitles = document.querySelectorAll(".woodburningContent h2");
-        for (let i = 0; i < allWoodburningTitles.length; i++) {
-            allWoodburningTitles[i].style.marginTop = '2em'
-           
-        }       
+        
     }
     else {
-        document.querySelector(".topnav").style.display = "none";
+       
     }   
     
 
-}
+})

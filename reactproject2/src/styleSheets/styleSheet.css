@@ -61,7 +61,6 @@ header {
     border-top:1px solid white;
     grid-column-start: 3;
     grid-row-start: 2;
-    display:
 }
 
 /* page selector buttons */
@@ -261,5 +260,30 @@ footer
 }
 
 
+/* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+    .topnav {
+        display:none;
+    }
+}
 
+/* styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .disable-menuButtons {
+        display:none;
+    }
+    .topnav {
+        display: block;
+    }
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    .disable-menuButtons {
+        display: none;
+    }
+    .topnav {
+        display: block;
+    }
+}
 
