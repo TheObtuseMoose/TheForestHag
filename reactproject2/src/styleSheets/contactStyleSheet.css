@@ -4,6 +4,7 @@ body {
 .contactContent {
     margin-left:1em;
     margin-right:1em;
+    text-align:center;
 }
 
 .contactMeForm {
@@ -99,17 +100,17 @@ body {
         flex-direction:column;
     }
     .formContainer input {
-        width: 15em;
+        width: 14em;
         margin-left: 2em;
         margin-right: 2em;
     }
     #message {
-        width: 15em;
+        width: 14em;
         margin-left: 2em;
         margin-right: 2em;
     }
     #message {
-        width: 15em;
+        width: 14em;
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 0;
@@ -128,19 +129,19 @@ body {
     }
 
     .formContainer input {
-        width: 15em;
+        width: 14em;
         margin-left: 2em;
         margin-right: 2em;
     }
 
     #message {
-        width: 15em;
+        width: 14em;
         margin-left: 2em;
         margin-right: 2em;
     }
 
     #message {
-        width: 15em;
+        width: 14em;
         margin-left: 2em;
         margin-right: 2em;
         margin-top:0;
