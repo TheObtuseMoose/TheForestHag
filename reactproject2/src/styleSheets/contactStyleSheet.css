@@ -112,6 +112,7 @@ body {
         width: 15em;
         margin-left: 2em;
         margin-right: 2em;
+        margin-top: 0;
     }
     #submit {
         margin-left: 5em;
@@ -126,11 +127,11 @@ body {
         flex-direction: column;
     }
 
-        .formContainer input {
-            width: 15em;
-            margin-left: 2em;
-            margin-right: 2em;
-        }
+    .formContainer input {
+        width: 15em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 
     #message {
         width: 15em;
@@ -142,6 +143,7 @@ body {
         width: 15em;
         margin-left: 2em;
         margin-right: 2em;
+        margin-top:0;
     }
     #submit {
         margin-left: 5em;
